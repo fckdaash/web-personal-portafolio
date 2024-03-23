@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/estilo.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Secular+One&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+<title>Spotify</title>
+
+	
+</head>
+
+<body>
+	
+	<!-- NAVBAR HEADER -->
+	
+	<header class="header">
+		
+		<nav class="navbar navbar-expand-sm navbar-dark bg-black">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<div class="logo">
+						<img src="img/logo.png" class="logo" alt="logo">
+					</div>
+				</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				<div class="collapse navbar-collapse" id="mynavbar">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item" style="margin-top:-7px;" >
+							<a class="nav-link" href="ayuda.html">Ayuda</a>
+						</li>
+						<li class="nav-item" style="margin-top:-7px;">
+							<a class="nav-link " href="galeria.html">Galeria</a>
+						</li>
+						<li class="nav-item" style="margin-top:-7px;">
+							<a class="nav-link " href="contacto.html">Contacto</a>
+						</li>
+						<li class="nav-item" style="margin-top:-7px;">
+							<a class="nav-link " href="#">Premium</a>
+						</li>
+						<li class="nav-item" style="margin-top:-7px;">
+							<a class="nav-link " href="#">Cuenta</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>	
+		
+	</header>
+	
+	
+	
+	
+	<!-- CONTENIDO BODY -->
+	<main id="body-pp">
+		
+		<div class="banner-principal">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="texto1">Escuchar</h1>
+						<h1 class="texto1-1">es todo</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="segundo-banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="texto2">
+							Accede a 82 millones de canciones y más de 3.6 <br> millones de podcasts, gratis.
+						</h2>
+						<h5 class="texto2-1">
+							No necesitas tarjeta de crédito.
+						</h5>
+						<div class="col-lg-12">
+							<img class="imagen2" src="img/imagen2.JPG" alt="imagenbanner2">
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+		
+		<div class="cuerpo-principal">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="texto3">
+							Busca y escucha el contenido que quieras donde <br> quieras. Cámbiate a premium. 
+						</h2>
+						<h5 class="texto3-1">
+							Cámbiate a Premium y controla tu manera de escuchar contenido con la música <br> sin anuncios, la calidad de sonido mejorada y las descargas en modo offline.
+						</h5>
+					</div>
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-lg-6 col-sm-12">
+						<div class="container-text-align">
+							<div class="">
+								<h2 class="texto4">
+									Sin distracciones. Solo <br> buena vibra. 
+								</h2>
+								<h5 class="texto4-1">
+									Disfruta sin parar de la música sin anuncios.
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<img class="imagen3" src="img/imagen3.JPG" alt="imagencuerpo3">
+					</div>
+				</div>
+				
+				
+				
+				<div class="row">
+					<div class="col-lg-7 col-sm-12">
+						<img class="imagen4" src="img/imagen4.JPG" alt="imagencuerpo4">
+					</div>
+					<div class="col-lg-5 col-sm-12">
+						<div class="container-text-align">
+							<div class="">
+								<h2 class="texto5">
+									Descarga contenido y sal  al mundo. 
+								</h2>
+								<h5 class="texto5-1">
+									Lleva tus playlist, música y podcasts a <br> todas partes. No necesitas wifi.
+								</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+				<div class="row">
+					<div class="col-lg-5 col-sm-12">
+						<h2 class="texto6">
+							Mixes más escuchados
+						</h2>
+					</div>
+				</div>
+				
+		<!-- GALERIA DE MUSICA  -->
+				
+				
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+						<div class="rectangulo-fondo">
+							<div class="cover">
+								<img class="imagen-cover" src="img/mix1.JPG" alt="cover 1">
+							</div>
+							<div class="texto-mix">
+								<h5 class="titulo-mix"> Mix de chill</h5>
+								<h5 class="subtitulo-mix"> BoyWithUke y más </h5>
+							</div>
+							<div class="form-btn1 " style="text-align: right;">
+								<audio id="audio1">
+									<source src="audio/song1.mp3" type="audio/mpeg">
+								</audio>
+								<button type="button" class="btn-audio1" id="playPauseBTN1" onClick="playPause1()">
+									<i id="icon1" class="fas fa-play"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+						<div class="rectangulo-fondo">
+							<div class="cover">
+								<img class="imagen-cover" src="img/mix2.JPG" alt="cover 2">
+							</div>
+							<div class="texto-mix">
+								<h5 class="titulo-mix"> Mix de música alegre</h5>
+								<h5 class="subtitulo-mix"> Dualipa, Sia, Sabrina <br> Carpenter y más </h5>
+							</div>
+							<div class="form-btn2 " style="text-align: right;">
+								<audio id="audio2">
+									<source src="audio/song2.mp3" type="audio/mpeg">
+								</audio>
+								<button type="button" class="btn-audio2" id="playPauseBTN2" onClick="playPause2()">
+									<i id="icon2" class="fas fa-play"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+						<div class="rectangulo-fondo">
+							<div class="cover">
+								<img class="imagen-cover" src="img/mix3.JPG" alt="cover 3">
+							</div>
+							<div class="texto-mix">
+								<h5 class="titulo-mix"> Mix Imagine Dragons</h5>
+								<h5 class="subtitulo-mix"> League of Legends, <br> Skilled y más</h5>
+							</div>
+							<div class="form-btn3 " style="text-align: right;">
+								<audio id="audio3">
+									<source src="audio/song3.mp3" type="audio/mpeg">
+								</audio>
+								<button type="button" class="btn-audio3" id="playPauseBTN3" onClick="playPause3()">
+									<i id="icon3" class="fas fa-play"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+						<div class="rectangulo-fondo">
+							<div class="cover">
+								<img class="imagen-cover" src="img/mix5.JPG" alt="cover 4">
+							</div>
+							<div class="texto-mix">
+								<h5 class="titulo-mix"> Mix de la decada de 2010</h5>
+								<h5 class="subtitulo-mix"> Fall Out Boy, Lewis <br> Capaldi, Post Malone </h5>
+							</div>
+							<div class="form-btn4 " style="text-align: right;">
+								<audio id="audio4">
+									<source src="audio/song4.mp3" type="audio/mpeg">
+								</audio>
+								<button type="button" class="btn-audio4" id="playPauseBTN4" onClick="playPause4()">
+									<i id="icon4" class="fas fa-play"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<h6 class="firma">by angel raúl vazquez olguin</h6>
+			</div>
+		</div>
+	
+	</main>
+	
+	
+	
+	<footer class="footer footer-expand-sm footer-dark bg-black text-light" >
+		<div class="container">
+			<nav class="row">
+				<div class="col-lg-3 col-sm-6" style="margin-top:2rem ;">
+					<div class="logo logo-footer">
+						<a class="logo-footer" href="#"> 
+							<img src="img/logo.png" class="logo" alt="logo">
+						</a>
+					</div>
+				</div>
+				<ul class="col-lg-3 col-sm-6 ms-auto" style="margin-top:3rem;">
+					<a class="link-redes" href="https://www.instagram.com/fckdaash/?hl=es" target="_blank">
+						<img class="icon-footer" src="img/insta.png" alt="Icoo social" >
+					</a>	
+					<a class="link-redes" href="https://twitter.com/LightDaggerF" target="_blank">
+						<img class="icon-footer" src="img/twitter.png" alt="Icoo social" >
+					</a>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+	
+	
+	
+	
+	
+	
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+	
+	
+</html>
